@@ -10,8 +10,8 @@ workflow:
 settings:
   source_name: "20221005"
   file_format: ".wav"
-  root_dir: "/Users/tsubaki/Desktop/DMM_recordings/"
-  csv_path: "/Users/tsubaki/Library/Mobile Documents/com~apple~CloudDocs/DMM/"
+  root_dir: "xxx" # SET YOUR PATH
+  csv_path: "xxx" # SET YOUR PATH
 
 # -----------------------------------
 params:
