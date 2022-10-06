@@ -10,7 +10,7 @@ OpenAIが公開している[Whisper API](https://github.com/openai/whisper)を�
 作成したcsvファイルは[WordHolic](https://www.langholic.com/wordholic)に適した形で作成され、アプリ上で効率的に暗記カードを作成することができます。
 
 
-文字起こし結果（I can hear you and I can see you very clearly as well.）の音声ファイルを再生している画面
+●文字起こし結果（I can hear you and I can see you very clearly as well.）の音声ファイルを再生している画面
 <img width="418" alt="スクリーンショット 2022-10-06 15 42 29" src="https://user-images.githubusercontent.com/85504048/194232631-6d0c0fb6-cc1a-4dbc-8e5c-7465a3361413.png">
 
 ## Before run
