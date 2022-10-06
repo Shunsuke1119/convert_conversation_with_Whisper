@@ -273,7 +273,8 @@ def get_examples(word: str) -> str:
 
     return text
 
-@hydra.main(config_path='/Users/tsubaki/Desktop/DMM_recordings/convert_conversation_with_whisperAI', config_name = 'main_settings.yaml')
+# SET YOUR PATH
+@hydra.main(config_path='xxx', config_name = 'main_settings.yaml')
 def main(cfg:DictConfig):
 
     # Load settings
