@@ -18,7 +18,7 @@ python convert_conversation.py
 ```
 
 ## Examples
-●文字起こし結果を1文ずつ表示している画面
+●文字起こし結果を1文ずつ表示している画面　　
 <img width="273" alt="スクリーンショット 2022-10-06 15 53 35" src="https://user-images.githubusercontent.com/85504048/194234258-fc29d65b-0d42-496d-816b-ef19d53df61f.png">　　
 
 ●文字起こし結果（I can hear you and I can see you very clearly as well.）の音声ファイルを再生している画面
