@@ -9,10 +9,10 @@ OpenAIが公開している[Whisper API](https://github.com/openai/whisper)を�
 文字起こしの結果を1文ずつ確認しながら、該当箇所の音声を聴く、csvファイルに単語、文などを追加することができます。
 作成したcsvファイルは[WordHolic](https://www.langholic.com/wordholic)に適した形で作成され、アプリ上で効率的に暗記カードを作成することができます。
 
-## Before run
+## Before running
 Append your settings to main_settings.yaml and convert_conversation.py
 
-## Run
+## Running
 ```
 python convert_conversation.py
 ```
