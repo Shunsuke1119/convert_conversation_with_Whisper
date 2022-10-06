@@ -10,6 +10,8 @@ OpenAIが公開している[Whisper API](https://github.com/openai/whisper)を�
 作成したcsvファイルは[WordHolic](https://www.langholic.com/wordholic)に適した形で作成され、アプリ上で効率的に暗記カードを作成することができます。
 
 
+<img width="418" alt="スクリーンショット 2022-10-06 15 42 29" src="https://user-images.githubusercontent.com/85504048/194232631-6d0c0fb6-cc1a-4dbc-8e5c-7465a3361413.png">
+
 ## Before run
 Append your settings to main_settings.yaml and convert_conversation.py
 
