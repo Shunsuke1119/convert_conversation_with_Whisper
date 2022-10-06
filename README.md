@@ -11,7 +11,7 @@ OpenAIが公開している[Whisper API](https://github.com/openai/whisper)を�
 
 
 ## Before run
-Append your settings to main_settings.yaml
+Append your settings to main_settings.yaml and convert_conversation.py
 
 ## Run
 ```
