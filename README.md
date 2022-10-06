@@ -1,7 +1,7 @@
 # convert_conversation_with_Whisper
 
 ## Overview
-This is a tool for English learners　using the Whisper API released by OpenAI to transcribe English conversation audio. 
+This is a tool for English learners using the Whisper API released by OpenAI to transcribe English conversation audio. 
 You can review the results of the transcription and listen to the audio of the relevant section.
 
 ## Before run
