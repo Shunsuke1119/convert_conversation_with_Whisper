@@ -13,6 +13,9 @@ OpenAIが公開している[Whisper API](https://github.com/openai/whisper)を�
 ●文字起こし結果（I can hear you and I can see you very clearly as well.）の音声ファイルを再生している画面
 <img width="418" alt="スクリーンショット 2022-10-06 15 42 29" src="https://user-images.githubusercontent.com/85504048/194232631-6d0c0fb6-cc1a-4dbc-8e5c-7465a3361413.png">
 
+●文字起こし結果（I can hear you and I can see you very clearly as well.）から覚えたい表現をcsvファイルに追加
+<img width="468" alt="スクリーンショット 2022-10-06 15 48 44" src="https://user-images.githubusercontent.com/85504048/194233413-e17d3c8f-79ed-48e7-aac8-ebbcb52703da.png">
+
 ## Before run
 Append your settings to main_settings.yaml and convert_conversation.py
 
