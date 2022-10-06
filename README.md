@@ -1,6 +1,16 @@
 # convert_conversation_with_Whisper
 
-## 概要
-英語学習者向けのツールです。
-OpenAIからリリースされたWhisperのAPIを利用し、英会話音声の文字起こしを行います。
-文字起こしの結果を見て、該当区間の音声を聞きながら復習することができます。
+## Overview
+This is a tool for English learners　using the Whisper API released by OpenAI to transcribe English conversation audio. 
+You can review the results of the transcription and listen to the audio of the relevant section.
+
+## Before run
+Rewrite your settings to main_settings.yaml
+
+## Run
+```
+python convert_conversation.py
+```
+
+## LICENSE
+MIT
