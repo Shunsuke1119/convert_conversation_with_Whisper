@@ -35,6 +35,8 @@ class Worker:
         self.before_converted_audio_path = self.root_dir.joinpath(settings['source_name'] + settings['file_format'])
         # wav変換後の音声ファイルパス
         self.converted_audio_path = self.root_dir.joinpath(settings['source_name'] + '/' + settings['source_name'] + '.wav')
+        # wav変換後のディレクトリ
+        subprocess.run([f'mkdir -p {str(self.root_dir.joinpath(settings["source_name"]))}'],shell=True)
 
         # 文字起こし結果を書き込むcsvファイルのパス
         self.result_csv_path = self.root_dir.joinpath(settings['source_name'] + '/' + settings['source_name'] + '_result.csv')
