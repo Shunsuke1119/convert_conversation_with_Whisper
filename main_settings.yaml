@@ -1,0 +1,25 @@
+# =================================
+# settings of convert conversation process
+# =================================
+workflow:
+  convert_to_wav: False
+  speech_to_text: True
+  interactive: True
+
+# -----------------------------------
+settings:
+  source_name: "20221005"
+  file_format: ".wav"
+  root_dir: "/Users/tsubaki/Desktop/DMM_recordings/"
+  csv_path: "/Users/tsubaki/Library/Mobile Documents/com~apple~CloudDocs/DMM/"
+
+# -----------------------------------
+params:
+  fs: 16000
+  mono: True
+  subtype: "PCM_16"
+
+  whisper:
+    type: "base"
+    verbose: True
+    language: "en"
