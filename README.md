@@ -5,7 +5,7 @@ This is a tool for English learners　using the Whisper API released by OpenAI t
 You can review the results of the transcription and listen to the audio of the relevant section.
 
 ## Before run
-Rewrite your settings to main_settings.yaml
+Append your settings to main_settings.yaml
 
 ## Run
 ```
