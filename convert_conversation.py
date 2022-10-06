@@ -177,10 +177,11 @@ class Worker:
 
         # 分割後の音ファイルを格納するディレクトリの作成
         subprocess.run([f'mkdir -p {self.splited_audio_path}'],shell=True)
+        
+        # 分割後の音声ファイルパス
+        splited_path = self.splited_audio_path.joinpath(self.source_name + "_" + id + ".wav")
 
-        if not os.path.isfile(self.splited_audio_path.joinpath(self.source_name + "_" +f'{id}.wav')):
-            # 分割後の音声ファイルパス
-            splited_path = self.splited_audio_path.joinpath(self.source_name + "_" + id + ".wav")
+        if not os.path.isfile(splited_path):
             # 音声ファイルから該当区間を切り取る
             subprocess.run([f'ffmpeg -i {self.converted_audio_path} -loglevel quiet -ss {start} -t {end - start} {splited_path}'],shell=True)
 
